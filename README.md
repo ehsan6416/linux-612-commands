@@ -19,3 +19,11 @@ Kali Linx
 GitHub
 
 Contsct: github.com/ehsan6416
+
+## day 2 - My Practical Lab - 24 Oct 2026
+
+ip -s link 
+Result: etho UP, docker0 DOWN. Risk: DOWN normal ha. Fix ki zarurat nahi.
+
+sudo ufw status verbose 
+Result: Status active, deny incoming. Risk: Koi khatra nahi, firewall ON nai.Agar inactive hota to hacker andar aa sakta tha. Fix: sudo ufw enable.
