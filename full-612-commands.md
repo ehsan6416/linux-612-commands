@@ -15,3 +15,14 @@ sudo ethtool eth0 - Network speed/dupex
 
 Goal: To become Junior SOC Analyst for Australia/USA market.
 Profile: github.com/ehsan6416
+
+## Day 2 - My Practical Lab - 24 Oct 2026
+
+ip -s  link 
+result: eth0 UP, docker0 DOWN. Risk: DOWN normal hai.
+
+sudo ufw status verbose
+Result: Status active. Risk:Koi khatra nahi.
+
+ss -tuln 
+Result: Port 80 open. Risk: Hacker attack kar sakta hai. Fix:  ss -tulnp se check karna.
