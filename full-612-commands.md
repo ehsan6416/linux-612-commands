@@ -26,3 +26,26 @@ Result: Status active. Risk:Koi khatra nahi.
 
 ss -tuln 
 Result: Port 80 open. Risk: Hacker attack kar sakta hai. Fix:  ss -tulnp se check karna.
+
+## Day 3 - My Practical Lab - 27 Oct 2026 - Sargodha
+
+## Command 1: sudo lsof +L1
+Result: opcache file (delted) - apache2 ka normal file hai. Risk: KOi khatra nahi.
+Fix: Not needed.
+
+## Command 2: sudo ls -l /proc/896/exe
+Result: -> /usr/sbin/apache2 - Asli apache hai.
+Risk: Agar /tmp ya /dev/shm aata to hack hota. Ye safe hai.
+Fix: Not needed
+
+## Command 3: sudo ss -tulpen
+Result:LISTEN on *:80, 127.0.0.54:53. No ESTAB hacker IP.
+Risk: Koi ESTAB nhi, system clean hai.
+Fix: Not needed
+
+Final Result of Day 3: System Clean - No Hack Found
+
+
+
+
+
