@@ -28,5 +28,23 @@ Result: etho UP, docker0 DOWN. Risk: DOWN normal ha. Fix ki zarurat nahi.
 sudo ufw status verbose 
 Result: Status active, deny incoming. Risk: Koi khatra nahi, firewall ON nai.Agar inactive hota to hacker andar aa sakta tha. Fix: sudo ufw enable.
 
+## Day 3 - My practical Lab - 27 Oct 2026 - Sargodha
+
+## Command 1: sudo lsof +L1
+Result: opcache file (deleted) - apache2 ka normal file hia. Risk: KOi khatra nahi.
+Fix: Not needed.
+
+### Command 2: sudo ls -l /proc/896/exe
+Result: -> /usr/sbin/apache2 - Asli apache hia.
+Risk: Agar /tmp ya /dev/shm aata to hack hota. Ye safe hai.
+Fix: Not needed
+
+### Command 3: sudo ss -tulpen
+Result: LISTEN on *:80, 127.0.0.54:53. No ESTAB hacker IP.
+Risk: Koi ESTAB nahi, system clean hai.
+Fix: Not needed.
+
+Final Result of Day 3: System Clean - No Hack Found
+
 
 
